@@ -1,0 +1,23 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border :1px solid red;
+    background-color: skyblue; 
+   }
+   li{
+    list-style: none;
+    width:100px;
+    height:100px;
+    background-color:#ff00ff;
+    margin:10px;
+   }
+
+   li:nth-child(1) {
+       width: 50px;
+   }
+
+   li:nth-child(2) {
+       width:200px;
+   }
